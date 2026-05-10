@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Your Name] — PhD Candidate in Computer Science</title>
+  <style>
+    :root {
+      --text: #1a1a1a;
+      --muted: #666;
+      --bg: #fafafa;
+      --border: #e0e0e0;
+      --accent: #2563eb;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--bg);
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 80px 24px 60px;
+    }
+
+    header {
+      margin-bottom: 48px;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      font-size: 15px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--muted);
+      margin-top: 44px;
+      margin-bottom: 16px;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    nav {
+      margin-top: 14px;
+    }
+
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin-right: 20px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      margin-bottom: 12px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .pub-list li,
+    .edu-list li,
+    .project-list li {
+      margin-bottom: 14px;
+      padding-left: 0;
+    }
+
+    .pub-list li {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 18px;
+    }
+
+    .pub-venue {
+      font-weight: 600;
+      min-width: 70px;
+      color: var(--text);
+    }
+
+    .pub-title {
+      flex: 1;
+    }
+
+    .pub-year {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .edu-list .edu-degree {
+      font-weight: 600;
+    }
+
+    .edu-list .edu-school {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .project-list li strong {
+      display: inline-block;
+      min-width: 160px;
+    }
+
+    .contact-line {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .contact-line a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .contact-line a:hover {
+      text-decoration: underline;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 48px 0 20px;
+    }
+
+    footer {
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    /* Mobile */
+    @media (max-width: 480px) {
+      body {
+        padding: 48px 16px 40px;
+      }
+      .pub-list li {
+        flex-direction: column;
+        gap: 2px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>[Your Name]</h1>
+    <p class="subtitle">PhD Candidate in Computer Science at <strong>[University Name]</strong></p>
+    <nav>
+      <a href="mailto:[your.email@university.edu]">Email</a>
+      <a href="https://scholar.google.com/citations?user=[your-id]">Google Scholar</a>
+      <a href="https://github.com/[your-username]">GitHub</a>
+      <a href="https://linkedin.com/in/[your-id]">LinkedIn</a>
+      <a href="/cv.pdf">CV</a>
+    </nav>
+  </header>
+
+  <!-- About -->
+  <section>
+    <h2>About</h2>
+    <p>
+      I am a PhD candidate in Computer Science at <strong>[University Name]</strong>, advised by
+      <strong>[Advisor Name]</strong>. My research spans <strong>[area one]</strong> and
+      <strong>[area two]</strong>, with a focus on building systems that are both
+      theoretically grounded and practically useful.
+    </p>
+    <p>
+      I am passionate about turning research ideas into working software, and
+      my work has been published at venues such as [Venue A], [Venue B], and [Venue C].
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section>
+    <h2>Research Projects</h2>
+    <ul class="project-list">
+      <li>
+        <strong>[Project One]</strong>
+        A short description of the project, what problem it solves, and your role.
+      </li>
+      <li>
+        <strong>[Project Two]</strong>
+        A short description of the project, what problem it solves, and your role.
+      </li>
+      <li>
+        <strong>[Project Three]</strong>
+        A short description of the project, what problem it solves, and your role.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Publications -->
+  <section>
+    <h2>Selected Publications</h2>
+    <ul class="pub-list">
+      <li>
+        <span class="pub-venue">[VENUE]</span>
+        <span class="pub-title">[Paper Title One]</span>
+        <span class="pub-year">2025</span>
+      </li>
+      <li>
+        <span class="pub-venue">[VENUE]</span>
+        <span class="pub-title">[Paper Title Two]</span>
+        <span class="pub-year">2024</span>
+      </li>
+      <li>
+        <span class="pub-venue">[VENUE]</span>
+        <span class="pub-title">[Paper Title Three]</span>
+        <span class="pub-year">2023</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Education -->
+  <section>
+    <h2>Education</h2>
+    <ul class="edu-list">
+      <li>
+        <div class="edu-degree">Ph.D. in Computer Science</div>
+        <div class="edu-school">[University Name] &mdash; 20xx &ndash; Present</div>
+      </li>
+      <li>
+        <div class="edu-degree">M.S. in [Major]</div>
+        <div class="edu-school">[University Name] &mdash; 20xx &ndash; 20xx</div>
+      </li>
+      <li>
+        <div class="edu-degree">B.S. in [Major]</div>
+        <div class="edu-school">[University Name] &mdash; 20xx &ndash; 20xx</div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section>
+    <h2>Contact</h2>
+    <p>
+      For collaborations or questions, feel free to reach out.
+    </p>
+    <p class="contact-line">
+      Email:
+      <a href="mailto:[your.email@university.edu]">[your.email@university.edu]</a>
+    </p>
+  </section>
+
+  <hr>
+  <footer>[Your Name] &mdash; last updated May 2026</footer>
+
+</body>
+</html>
